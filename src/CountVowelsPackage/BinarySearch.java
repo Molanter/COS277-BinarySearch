@@ -29,7 +29,7 @@ public class BinarySearch {
             int[] arr = Arrays.copyOfRange(array, mid + 1, array.length);
             
             int res = binarySearch(arr, target);
-            return (res == -1) ? -1 : mid + 1 + res;	            
+            return mid + 1 + res;	            
         }
 //	    }
 	
